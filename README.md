@@ -25,6 +25,11 @@ Required: Setup
 
  Required: Challenge 4 - Insecure Direct Object References (IDOR) - Completed
  
+Notes: Experienced some issues configuring the proxies when working on Challenge 5 and was therefore not able to retrieve the result key. 
+
+How to solve Challenge 5:
+- Turn on intercept in Burp and go through every user in the Security Shepard's list to find the user ID for the respective users in burp. In burp, right click and click send to intruder. Go to the positions tab and change the user ID that was found initially which was '1' in this scenerio. Go to payloads and add approximately 20 different payloads. Go to the target tab and start the attack. Go to results tab and click the response tab and find the hidden users message which will also provide the results key.
+ 
 License
 
 Copyright [2017] [Gowri Hassan]

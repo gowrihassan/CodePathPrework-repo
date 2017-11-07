@@ -3,7 +3,7 @@ Gowri Hassan - hassang@purdue.edu
 
 Time spent: 3 hours
 
-Still in progress due to Internet Connectivity Issues
+Still in progress 
 
 User Stories - 
 
